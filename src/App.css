@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  order: 1;
+  max-height: 5vh;
+  padding-left: 20px;
+  text-align: left;
+  background-color: #282c34;
+  align-items: left;
+  justify-content: center;
+  color: #f200a2;
+  background-color: #143962;
+}
+
+.App-MidContainer {
+  display: flex;
+  flex-direction: row;
+  max-height: 90vh;
+
+  order: 2;
+}
+
+.App-MainArea {
+  padding-left: 20px;
+  background-color: #1b2a2c;
+  color: #00d9f2;
+  order: 1;
+  width: 80vw;
+}
+
+.App-NavArea {
+  padding-right: 20px;
+  text-align: right;
+  color: #f200a2;
+  background-color: #143962;
+  order: 2;
+  width: 20vw;
+}
+
+.App-Footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-left: 20px;
+  color: #f200a2;
+  background-color: #143962;
+  height: 10vh;
+  order: 3;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.ralph {
+  border-radius: 10px;
+}
+
+.Blogpic {
+  border-radius: 10px;
+  max-height: 30vh;
+  width: auto;
+}
